@@ -1,0 +1,10 @@
+nav-link {text-align: right;
+color: rgb(187, 52, 52);}
+u, h5 {color: rgb(233, 233, 233);}
+
+body {
+    background-image: url(BG\ Gradient.svg);
+    background-size: cover;
+}
+
+footer {background-color: rgb(34, 148, 34);}
