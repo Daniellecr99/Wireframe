@@ -7,4 +7,14 @@ body {
     background-size: cover;
 }
 
-footer {background-color: rgb(34, 148, 34);}
+footer {background-color: rgb(34, 148, 34);
+height: min-content;}
+
+#SM {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+#CR {
+   margin-bottom: 0px;
+}
