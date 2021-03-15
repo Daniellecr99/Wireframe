@@ -49,10 +49,12 @@ height: min-content;}
 @media screen and (max-width:500px)
 {
     .mr-3{max-width:350px;   margin-top: -400px; margin-left: 0px; } 
-    .media-body { margin-top: 300px; max-width: 340px; min-width: 340px; margin-left: -350px;  }
+    .media-body { margin-top: 300px; max-width: 340px; min-width: 340px; margin-left: -355px;  }
   
     .card {max-width: 320px; min-height: 460px; max-height: 460px; margin: 0 auto; margin-top: 10px;}
     .card p {font-size: 13px;}
     .card h4 {font-size: 17px;}
     .media-body h4 {text-align: center; margin-left: -15px;}
-}
+    #SM img {width: 35px;}
+    #SM {float: left; margin-top: 10px; margin-left: 25px; }
+    footer {height:100px;}
