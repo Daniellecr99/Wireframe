@@ -102,6 +102,8 @@ height: min-content;}
     #SM {float: left; margin-top: 10px; margin-left: 25px; }
     footer {height:100px;}
     .beet, .corn {display: none;}
+    .carrot {width: 20px;}
+
     .carrots img {
         transition-delay: 0s;
         transition-timing-function:linear;
