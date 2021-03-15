@@ -19,6 +19,35 @@ height: min-content;}
    margin-bottom: 0px;
 }
 
+.navbar img:hover {
+    transition-delay: 1s;
+    transition-timing-function:linear;
+    animation-name: apple;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes apple {
+    from {background-color: transparent;}
+    to {border: 1px green solid; border-radius: 50%; background-color: rgba(0, 128, 0, 0.164);}
+
+}
+
+.carrots img {
+    transition-delay: 0s;
+    transition-timing-function:linear;
+    animation-name: carrot;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes carrot {
+    0%   {transform:translate(-35px, 0px);}
+    25%  {transform:translate(1000px, 0px) rotate(90deg);}
+    50%  {transform:translate(1020px, 450px) rotate(90deg);  }
+    75%  {transform:translate(-35px, 450px)  rotate(180deg);}
+    100% {transform:translate(-35px, 0px) rotate(270deg); }
+
+}
+
 @media screen and (max-width:1093px)
 {
     .mr-3{max-width:400px;}
@@ -43,12 +72,26 @@ height: min-content;}
     .card {max-width: 320px; min-height: 460px; max-height: 460px; margin: 0 auto; margin-top: 10px;}
     .card p {font-size: 13px;}
     .card h4 {font-size: 17px;}
+    .corn {display: none;}
     .media-body h4 {text-align: center; margin-left: -15px;}
+    .carrots img {
+        transition-delay: 0s;
+        transition-timing-function:linear;
+        animation-name: carrot;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes carrot {
+        0%   {transform:translate(-20px, 30px);}
+        25%  {transform:translate(435px, 30px) rotate(90deg);}
+        50%  {transform:translate(435px, 350px) rotate(90deg);  }
+        75%  {transform:translate(-20px, 350px)  rotate(180deg);}
+        100% {transform:translate(-20px, 30px) rotate(270deg); } }
 }
 
 @media screen and (max-width:500px)
 {
-    .mr-3{max-width:350px;   margin-top: -400px; margin-left: 0px; } 
+    .mr-3{max-width:340px;   margin-top: -445px; margin-left: 8px; margin-right: -15px; } 
     .media-body { margin-top: 300px; max-width: 340px; min-width: 340px; margin-left: -355px;  }
   
     .card {max-width: 320px; min-height: 460px; max-height: 460px; margin: 0 auto; margin-top: 10px;}
@@ -58,3 +101,18 @@ height: min-content;}
     #SM img {width: 35px;}
     #SM {float: left; margin-top: 10px; margin-left: 25px; }
     footer {height:100px;}
+    .beet, .corn {display: none;}
+    .carrots img {
+        transition-delay: 0s;
+        transition-timing-function:linear;
+        animation-name: carrot;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes carrot {
+        0%   {transform:translate(-20px, 40px);}
+        25%  {transform:translate(355px, 40px) rotate(90deg);}
+        50%  {transform:translate(355px, 335px) rotate(90deg);  }
+        75%  {transform:translate(-20px, 335px)  rotate(180deg);}
+        100% {transform:translate(-20px, 40px) rotate(270deg); } }
+}
