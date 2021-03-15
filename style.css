@@ -91,7 +91,7 @@ height: min-content;}
 
 @media screen and (max-width:500px)
 {
-    .mr-3{max-width:340px;   margin-top: -445px; margin-left: 8px; margin-right: -15px; } 
+    .mr-3{max-width:340px;   margin-top: -500px; margin-left: 8px; margin-right: -15px; } 
     .media-body { margin-top: 300px; max-width: 340px; min-width: 340px; margin-left: -355px;  }
   
     .card {max-width: 320px; min-height: 460px; max-height: 460px; margin: 0 auto; margin-top: 10px;}
@@ -102,7 +102,7 @@ height: min-content;}
     #SM {float: left; margin-top: 10px; margin-left: 25px; }
     footer {height:100px;}
     .beet, .corn {display: none;}
-    .carrot {width: 20px;}
+    .carrot {width: 20px; height: 30px;}
 
     .carrots img {
         transition-delay: 0s;
