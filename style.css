@@ -18,3 +18,41 @@ height: min-content;}
 #CR {
    margin-bottom: 0px;
 }
+
+@media screen and (max-width:1093px)
+{
+    .mr-3{max-width:400px;}
+}
+
+@media screen and (max-width:990px)
+
+{
+    .mr-3{max-width:500px; margin-top: -400px; margin-left: 50px;}
+    .media-body { margin-top: 300px; min-width: 500px; margin-left: -500px; padding-left: 0; }
+    .card {max-width: 220px; min-height: 450px; max-height: 450px;}
+    .card p {font-size: 13px;}
+    .card h4 {font-size: 17px;}
+    .media-body h4 {text-align: center; margin-left: -15px;}
+}
+
+@media screen and (max-width:770px)
+{
+    .mr-3{max-width:350px;   margin-top: -400px; margin-left: 80px; } 
+    .media-body { margin-top: 300px; max-width: 340px; min-width: 340px; margin-left: -350px;  }
+  
+    .card {max-width: 320px; min-height: 460px; max-height: 460px; margin: 0 auto; margin-top: 10px;}
+    .card p {font-size: 13px;}
+    .card h4 {font-size: 17px;}
+    .media-body h4 {text-align: center; margin-left: -15px;}
+}
+
+@media screen and (max-width:500px)
+{
+    .mr-3{max-width:350px;   margin-top: -400px; margin-left: 0px; } 
+    .media-body { margin-top: 300px; max-width: 340px; min-width: 340px; margin-left: -350px;  }
+  
+    .card {max-width: 320px; min-height: 460px; max-height: 460px; margin: 0 auto; margin-top: 10px;}
+    .card p {font-size: 13px;}
+    .card h4 {font-size: 17px;}
+    .media-body h4 {text-align: center; margin-left: -15px;}
+}
