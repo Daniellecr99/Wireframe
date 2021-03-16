@@ -19,16 +19,60 @@ height: min-content;}
    margin-bottom: 0px;
 }
 
-.navbar img:hover {
+.card img:hover {transition-delay: 1s;
+    transition-timing-function:ease-in-out;
+    animation-name: img;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;}
+    @keyframes img {
+        from {}
+        to {filter: saturate(180%);}
+    
+    }
+
+    #SM .FB{transition-delay: 1s;
+        transition-timing-function:ease-in-out;
+        animation-name: img;
+        animation-duration: 3s;
+        animation-iteration-count:5;}
+        @keyframes img {
+            from {}
+            to {filter: brightness(200%);}
+        
+        }
+
+        #SM .IG {transition-delay: 2;
+            transition-timing-function:ease-in-out;
+            animation-name: img;
+            animation-duration: 3s;
+            animation-iteration-count:5;}
+            @keyframes img {
+                from {}
+                to {filter: brightness(200%);}
+            
+            }
+
+            #SM .TW {transition-delay: 3s;
+                transition-timing-function:ease-in-out;
+                animation-name: img;
+                animation-duration: 3s;
+                animation-iteration-count:5;}
+                @keyframes img {
+                    from {}
+                    to {filter: brightness(200%);}
+                
+                }
+
+.navbar img{
     transition-delay: 1s;
     transition-timing-function:linear;
     animation-name: apple;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
 }
 @keyframes apple {
-    from {background-color: transparent;}
-    to {border: 1px green solid; border-radius: 50%; background-color: rgba(0, 128, 0, 0.164);}
+    from {}
+    to {transform: rotate(360deg);}
 
 }
 
@@ -89,10 +133,10 @@ height: min-content;}
         100% {transform:translate(-20px, 30px) rotate(270deg); } }
 }
 
-@media screen and (max-width:500px)
+@media screen and (max-width:510px)
 {
-    .mr-3{max-width:340px;   margin-top: -445px; margin-left: 8px; margin-right: -15px; } 
-    .media-body { margin-top: 300px; max-width: 340px; min-width: 340px; margin-left: -355px;  }
+    .mr-3{max-width:340px; margin: 0 auto; margin-top: -500px; margin-left: 40px; } 
+    .media-body { margin-top: 220px; max-width: 340px; min-width: 340px; margin-left: -360px;   }
   
     .card {max-width: 320px; min-height: 460px; max-height: 460px; margin: 0 auto; margin-top: 10px;}
     .card p {font-size: 13px;}
@@ -101,8 +145,37 @@ height: min-content;}
     #SM img {width: 35px;}
     #SM {float: left; margin-top: 10px; margin-left: 25px; }
     footer {height:100px;}
-    .beet, .corn {display: none;}
-    .last {margin-bottom: -70px;}
+    .beet, .corn, .carrot {display: none;}
+    
+    .carrots img {
+        transition-delay: 0s;
+        transition-timing-function:linear;
+        animation-name: carrot;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes carrot {
+        0%   {transform:translate(-20px, 40px);}
+        25%  {transform:translate(355px, 40px) rotate(90deg);}
+        50%  {transform:translate(355px, 335px) rotate(90deg);  }
+        75%  {transform:translate(-20px, 335px)  rotate(180deg);}
+        100% {transform:translate(-20px, 40px) rotate(270deg); } }
+}
+
+@media screen and (max-width:423px)
+{
+    .mr-3{max-width:340px; margin: 0 auto; margin-top: -500px;  } 
+    .media-body { margin-top: 220px; max-width: 340px; min-width: 340px; margin-left: -355px;   }
+  
+    .card {max-width: 320px; min-height: 460px; max-height: 460px; margin: 0 auto; margin-top: 10px;}
+    .card p {font-size: 13px;}
+    .card h4 {font-size: 17px;}
+    .media-body h4 {text-align: center; margin-left: -15px;}
+    #SM img {width: 35px;}
+    #SM {float: left; margin-top: 10px; margin-left: 25px; }
+    footer {height:100px;}
+    .beet, .corn, .carrot {display: none;}
+    
     .carrots img {
         transition-delay: 0s;
         transition-timing-function:linear;
